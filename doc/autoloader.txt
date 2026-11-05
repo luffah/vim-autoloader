@@ -1,0 +1,22 @@
+*autoloader.vim*     Source files given vim events
+                                                               *autoloader*
+
+License:     GPLv3 (see LICENSE)
+Author(s):   luffah
+
+Load files on demand (given vim events) instead of at startup.
+
+==============================================================================
+COMMANDS                                             *autoloader-commands*
+
+*:AutoLoad* [event] [pattern] [file(s)]
+    Source given file(s) when the given autocmd event matches the pattern.
+*:AutoLoadReset* [event] [pattern] [file(s)]
+    Same as :AutoLoad but remove previous matching autocmd.
+*:AutoLoadDefaultExt* [ft] [directory(s)]
+    Open a new file in the directory with the extension [ft].
+*:AutoLoadUseCommandChar* [char]
+    Allow to use a command char in the filepath; e.g.
+    :vim tab:foo opens the file tab with command 'foo'.
+
+ vim:tw=78:ts=8:ft=help:norl:

@@ -1,0 +1,7 @@
+:AutoLoad	autoloader.txt	/*:AutoLoad*
+:AutoLoadDefaultExt	autoloader.txt	/*:AutoLoadDefaultExt*
+:AutoLoadReset	autoloader.txt	/*:AutoLoadReset*
+:AutoLoadUseCommandChar	autoloader.txt	/*:AutoLoadUseCommandChar*
+autoloader	autoloader.txt	/*autoloader*
+autoloader-commands	autoloader.txt	/*autoloader-commands*
+autoloader.vim	autoloader.txt	/*autoloader.vim*
